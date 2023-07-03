@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Q3. HTML assignment</title>
+    </head>
+    <body>
+        <h1>Travel Reservation Form</h1>
+        <h3>* denotes mandotory</h3>
+        <form>
+            <label for="fname">Full name*:</label><br>
+            <input type="text" name="fname" id="fname" placeholder="First Name .Last Name"><br>
+            <label for="email">Email address*:</label><br>
+            <input type="text" name="email" id="email"><br>
+            <label for="Select_Tour_package">Select Tour Package*:</label><br>
+            <select name="Tour">
+                <option value="Goa">Goa</option>
+                <option value="Chennai">Chennai</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select><br>
+            <label for="Arrival_date*:">Arrival date*:</label><br>
+            <input type="text" name="Arrival_date" placeholder="m/d/y" id=""><br>
+            <label for="No.of_person">Number of persond*:</label><br>
+            <input type="text" name="No.of_person" id=""><br>
+            <label for="Avail">What would you want to avail?*</label><br>
+            <input type="text" name="Avail" id=""><br>
+            Boarding <input type="checkbox" name="" id="boarding"><br>
+            Fooding <input type="checkbox" name="" id="fooding"><br>
+            Sight seeing <input type="checkbox" name="" id="sightseeing"><br>
+            <label for="discount">Discount Coupon code:</label><br>
+            <input type="text" name="discount" id=""><br>
+            <label for="T&C">Terms and Conditions*</label><br>
+            <input type="radio" name="T&C" value="agree" checked>I agree
+            <input type="radio" name="T&C" value="disagree" >I disagree <br>
+            <button type="submit" class="primary">Complete reservation</button>
+        </form>
+    </body>
+</html>
